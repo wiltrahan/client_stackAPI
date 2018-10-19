@@ -34,7 +34,8 @@ public class ClientRestController {
 	}
 	
 	// define end point for "/clients/{clientId}
-	@GetMapping("/clients/{clientId}") 
+	@GetMapping("/clients/{clientId}")
+	@CrossOrigin(origins = "http://localhost:4200")
 	public Client getClient(@PathVariable int clientId) {
 		
 		Client theClient = clientService.getClient(clientId);
