@@ -73,7 +73,7 @@ public class ClientRestController {
 	
 	@DeleteMapping("/clients/{clientId}")
 	@CrossOrigin(origins = "http://localhost:4200")
-	public String deleteClient(@PathVariable int clientId) {
+	public void deleteClient(@PathVariable int clientId) {
 		
 		Client tempClient = clientService.getClient(clientId);
 		if(tempClient == null) {
@@ -82,7 +82,7 @@ public class ClientRestController {
 		
 		clientService.deleteClient(clientId);
 		
-		return "Deleted customer id - " + clientId;
+//		return "Deleted client - " + clientId;
 	}
 	
 }
