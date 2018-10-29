@@ -50,6 +50,7 @@ public class ClientRestController {
 	
 	//mapping for POST /clients -- add new client
 	@PostMapping("/clients")
+	@CrossOrigin(origins = "http://localhost:4200")
 	public Client addClient(@RequestBody Client theClient) {
 		
 		//just in case they pass an id as json, set to 0
@@ -62,6 +63,7 @@ public class ClientRestController {
 	}
 	
 	@PutMapping("/clients")
+	@CrossOrigin(origins = "http://localhost:4200")
 	public Client updateClient(@RequestBody Client theClient) {
 		
 		clientService.saveClient(theClient);
@@ -70,6 +72,7 @@ public class ClientRestController {
 	}
 	
 	@DeleteMapping("/clients/{clientId}")
+	@CrossOrigin(origins = "http://localhost:4200")
 	public String deleteClient(@PathVariable int clientId) {
 		
 		Client tempClient = clientService.getClient(clientId);
