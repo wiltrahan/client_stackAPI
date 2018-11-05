@@ -1,6 +1,6 @@
 # Client Stack Rest API
 
-This is a Rest API that I built using Java Spring & Maven for one of my final projects at the [CareerDevs Computer Science Academy](http://careerdevs.com/).  
+This is a Rest API that I built using Java for one of my final projects at the [CareerDevs Computer Science Academy](http://careerdevs.com/).  
 The front end for this project was built with Angular and can be found at;
 https://github.com/wiltrahan/client-stack
 
