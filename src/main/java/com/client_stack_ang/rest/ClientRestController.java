@@ -81,8 +81,7 @@ public class ClientRestController {
 		}
 		
 		clientService.deleteClient(clientId);
-		
-//		return "Deleted client - " + clientId;
+
 	}
 	
 }
