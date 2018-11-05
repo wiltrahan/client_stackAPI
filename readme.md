@@ -2,7 +2,7 @@
 
 This is a Rest API that I built using Java for one of my final projects at the [CareerDevs Computer Science Academy](http://careerdevs.com/).  
 The front end for this project was built with Angular and can be found at;
-https://github.com/wiltrahan/client-stack
+[Client Stack](https://github.com/wiltrahan/client-stack).
 
 ## Technolgies Used
 * Java 8
