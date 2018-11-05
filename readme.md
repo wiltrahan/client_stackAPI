@@ -5,28 +5,23 @@ https://github.com/wiltrahan/client-stack
 
 ## Open Endpoints
 
-```
 * **URL**: /api/clients
 * **METHOD**: GET
 * **RESULT**: Retrieves all clients from database
-```
-```
+- - - -
 * **URL**: /api/clients/{clientId}
 * **METHOD**: GET
 * **RESULT**: Retrieves individual client from database
-```
-```
+- - - -
 * **URL**: /api/clients
 * **METHOD**: POST
 * **RESULT**: Adds new client to database
-```
-```
+- - - -
 * **URL**: /api/clients
 * **METHOD**: PUT
 * **RESULT**: Update client in database
-```
-```
+- - - -
 * **URL**: /api/clients/{clientId}
 * **METHOD**: DELETE
 * **RESULT**: Deletes individual client from database
-```
+- - - -
